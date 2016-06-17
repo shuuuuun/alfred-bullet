@@ -121,7 +121,7 @@ func list() {
 
 		args := &pushArgs{
 			Iden:  device.Iden,
-			Title: "Pushed from Alfred",
+			Title: query,
 			Body:  query,
 		}
 
